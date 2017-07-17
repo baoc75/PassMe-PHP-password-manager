@@ -8,6 +8,13 @@ PassMe là một chương trình quản lý mật khẩu mã nguồn mở dành 
 - khoảng hơn 100 trang web, dịch vụ trực tuyến có sẵn khi thêm một tài khoản mới để quản lý vào PassMe như Facebook, Twitter, Google, Violympic, Lazada, Vietcombank,... hoặc bạn cũng có thể tự tạo riêng cho mình nếu dịch vụ không có trên danh sách trên.
 
 ## Cài đặt
+### Yêu cầu kĩ thuật
+- Phiên bản PHP 5.3 hoặc mới hơn.
+- Cơ sở dữ liệu MySQL.
+- Máy chủ HTTP có thể là Apache, Ngix,...
+- Có kiến thức cơ bản về PHP và MySQL.
+
+### Hướng dẫn
 - Clone hoặc download các release của PassMe về thư mục máy chủ của bạn.
 - Import file passme.sql vào CSDL MySQL của bạn.
 - Vào thư mục config, mở file db.config và chỉnh sửa các thông số CSDL, đường dẫn trang web và tên trang web.
@@ -15,13 +22,16 @@ PassMe là một chương trình quản lý mật khẩu mã nguồn mở dành 
 
 ## Cấu trúc thư mục và file
 
-| Tên thư mục | Nội dung                                                                                                          |
+| Tên thư mục | Nội dung |
 | ------  | ----------------------------------------------------------------------------------------------------------------- |
-| assets     | Chứa các resource, font, CSS, JS, hình ảnh của dịch vụ,...                                                |
-| bootstrap    | Chứa các resource, font, CSS, JS, hình ảnh của dịch vụ,... dựa trên Bootstrap                                                               |
-| fullname| Tên đầy đủ của dịch vụ, dạng Varchar(100), UTF-8                                                                  |
-| url     | Đường dẫn đến trang đăng nhập của dịch vụ, dạng Varchar(255), UTF-8                                               |
-| img     | Tên file ảnh gồm cả đuôi file, là logo của dịch vụ, dạng Varchar(255), UTF-8, ảnh này nằm ở thư mục assets/img/   |
+| assets     | Chứa các resource, font, CSS, JS, hình ảnh của dịch vụ,...|
+| bootstrap    | Chứa các resource, font, CSS, JS, hình ảnh của dịch vụ,... dựa trên Bootstrap|
+| class| Các hàm, lớp xử lí trong chương trình |
+| config     | Chứa file thiết lập chương trình |
+| mailer     | Chứa thư viên PHPMailer dùng để gửi thư thông qua giao thức SMTP   |
+| my     | Thư mục chứa giao diện của các trang nằm trong /my/   |
+| pages     | Giao diện mẫu, có thể dùng để tạo thêm trang mới (dựa trên giao diện Flat Admin v4.3)  |
+| template   | Giao diện của header, menu, footer,... được sử dụng ở các trang |
 
 ## Tùy chỉnh thêm
 ### Thêm nhà cung cấp dịch vụ
