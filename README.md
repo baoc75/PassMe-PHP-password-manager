@@ -51,7 +51,7 @@ Dưới đây là thông tin về mỗi cột mà bạn cần nhập
 | img     | Tên file ảnh gồm cả đuôi file, là logo của dịch vụ, dạng Varchar(255), UTF-8, ảnh này nằm ở thư mục assets/img/   |
 
 ### Thêm chuyên mục
-Bạn có thể thêm chuyên mục cho tài khoản bằng cách thêm một dòng mới vào bảng 'pm_services'
+Bạn có thể thêm chuyên mục cho tài khoản bằng cách thêm một dòng mới vào bảng 'pm_category'
 
 Dưới đây là thông tin về mỗi cột mà bạn cần nhập
 
