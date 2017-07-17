@@ -35,7 +35,7 @@ PassMe documentation in other language: [Tiếng Việt](README_vi.md)
 | bootstrap    | Inculding resources, fonts, CSS, JS, images,... of PassMe based on Bootstrap|
 | class| Inculding functions, classes, core of PassMe |
 | config     | Inculding configuration file of PassMe |
-| mailer     | Inculding PHPMailer library used to sent mail via SMTP protocol.   |
+| mailer     | Inculding PHPMailer library used to sent mail via SMTP protocol   |
 | my     | Inculding template file inside website path /my/   |
 | pages     | Page template, can be use to create new page (based on Flat Admin v4.3)  |
 | template   | Template of header, menu, footer,... used across many pages |
