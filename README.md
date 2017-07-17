@@ -1,4 +1,4 @@
-#PassMe
+# PassMe
 PassMe là một chương trình quản lý mật khẩu mã nguồn mở dành cho cá nhân, gia đình, các tổ chức, nhóm nhỏ. Được xây dựng trên PHP theo hướng đối tượng (OOP).
 
 ## Tính năng
@@ -17,10 +17,10 @@ PassMe là một chương trình quản lý mật khẩu mã nguồn mở dành 
 Bạn có thể thêm nhà cung cấp dịch vụ bằng cách thêm một dòng mới vào bảng 'pm_services'
 
 Dưới đây là thông tin về mỗi cột mà bạn cần nhập
-| Tên cột | Nội dung |
-| ------ | ------ |
-| id | ID của dịch vụ, dạng INT, nên để trống, CSDL sẽ tự động tăng dần |
-| name | Tên ngắn gọn của dịch vụ, dạng Varchar(50), UTF-8 |
-| fullname | Tên đầy đủ của dịch vụ, dạng Varchar(100), UTF-8 |
-| url | Đường dẫn đến trang đăng nhập của dịch vụ, dạng Varchar(255), UTF-8 |
-| img | Tên file ảnh bao gồm cả đuôi file, là logo của dịch vụ, dạng Varchar(50), UTF-8, ảnh này nằm ở thư mục assets/img/ |
+| Tên cột | Nội dung                                                                                                          |
+| ------  | ------                                                                                                            |
+| id      | ID của dịch vụ, dạng INT, nên để trống, CSDL sẽ tự động tăng dần                                                  |
+| name    | Tên ngắn gọn của dịch vụ, dạng Varchar(50), UTF-8                                                                 |
+| fullname| Tên đầy đủ của dịch vụ, dạng Varchar(100), UTF-8                                                                  |
+| url     | Đường dẫn đến trang đăng nhập của dịch vụ, dạng Varchar(255), UTF-8                                               |
+| img     | Tên file ảnh gồm cả đuôi file, là logo của dịch vụ, dạng Varchar(255), UTF-8, ảnh này nằm ở thư mục assets/img/   |
