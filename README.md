@@ -13,6 +13,16 @@ PassMe là một chương trình quản lý mật khẩu mã nguồn mở dành 
 - Vào thư mục config, mở file db.config và chỉnh sửa các thông số CSDL, đường dẫn trang web và tên trang web.
 - Để thay đổi thông số gửi mail (SMTP), mở file class/class.user.php, tìm dòng số 119, kể từ đây trở xuống hãy thay đổi các thông số SMTP.
 
+## Cấu trúc thư mục và file
+
+| Tên thư mục | Nội dung                                                                                                          |
+| ------  | ----------------------------------------------------------------------------------------------------------------- |
+| assets     | Chứa các resource, font, CSS, JS, hình ảnh của dịch vụ,...                                                |
+| bootstrap    | Chứa các resource, font, CSS, JS, hình ảnh của dịch vụ,... dựa trên Bootstrap                                                               |
+| fullname| Tên đầy đủ của dịch vụ, dạng Varchar(100), UTF-8                                                                  |
+| url     | Đường dẫn đến trang đăng nhập của dịch vụ, dạng Varchar(255), UTF-8                                               |
+| img     | Tên file ảnh gồm cả đuôi file, là logo của dịch vụ, dạng Varchar(255), UTF-8, ảnh này nằm ở thư mục assets/img/   |
+
 ## Tùy chỉnh thêm
 ### Thêm nhà cung cấp dịch vụ
 Bạn có thể thêm nhà cung cấp dịch vụ bằng cách thêm một dòng mới vào bảng 'pm_services'
