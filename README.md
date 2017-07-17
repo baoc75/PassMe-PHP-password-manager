@@ -57,3 +57,12 @@ Dưới đây là thông tin về mỗi cột mà bạn cần nhập
 | id      | ID của dịch vụ, dạng INT, nên để trống, CSDL sẽ tự động tăng dần                                                  |
 | name    | Tên chuyên mục, dạng Varchar(50), UTF-8                                                                           |
 
+## Credits 
+- Nguyễn Phúc Bảo (https://github.com/nguyenphucbao68)
+- Giao diện Flat Admin - Không còn được phát triển (https://github.com/tui2tone/)
+- PHPMailer (https://github.com/PHPMailer/PHPMailer)
+- Bootstrap (http://getbootstrap.com)
+- jQuery (http://jquery.com)
+- Roboto Font (https://fonts.google.com/specimen/Roboto)
+- Material Design (https://material.io)
+ 
