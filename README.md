@@ -1,6 +1,7 @@
 # PassMe
 PassMe là một chương trình quản lý mật khẩu mã nguồn mở dành cho cá nhân, gia đình, các tổ chức, nhóm nhỏ. Được xây dựng trên PHP theo hướng đối tượng (OOP).
 
+[logo]: http://i.imgur.com/XUQBm96.png "Ảnh chụp màn hình PassMe"
 ## Tính năng
 - Quản lý tài khoản các tài khoản trực tuyến nhanh chóng và dễ dàng tại cùng một nơi. 
 - Tương thích với nhiều thiết bị từ máy tính đến điện thoại di động.
