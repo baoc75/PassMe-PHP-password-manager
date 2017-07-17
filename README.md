@@ -18,7 +18,7 @@ Bạn có thể thêm nhà cung cấp dịch vụ bằng cách thêm một dòng
 
 Dưới đây là thông tin về mỗi cột mà bạn cần nhập
 | Tên cột | Nội dung                                                                                                          |
-| ------  | ------                                                                                                            |
+| ------  | ----------------------------------------------------------------------------------------------------------------- |
 | id      | ID của dịch vụ, dạng INT, nên để trống, CSDL sẽ tự động tăng dần                                                  |
 | name    | Tên ngắn gọn của dịch vụ, dạng Varchar(50), UTF-8                                                                 |
 | fullname| Tên đầy đủ của dịch vụ, dạng Varchar(100), UTF-8                                                                  |
