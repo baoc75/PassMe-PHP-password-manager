@@ -5,7 +5,8 @@ PassMe là một chương trình quản lý mật khẩu mã nguồn mở dành 
 - Quản lý tài khoản các tài khoản trực tuyến nhanh chóng và dễ dàng tại cùng một nơi. 
 - Tương thích với nhiều thiết bị từ máy tính đến điện thoại di động.
 - Đưa ra các gợi ý nhằm nâng cao bảo mật về các tài khoản của bạn.
-- khoảng hơn 100 trang web, dịch vụ trực tuyến có sẵn khi thêm một tài khoản mới để quản lý vào PassMe như Facebook, Twitter, Google, Violympic, Lazada, Vietcombank,... hoặc bạn cũng có thể tự tạo riêng cho mình nếu dịch vụ không có trên danh sách trên.
+- Thêm tài khoản/mật khẩu mới để quản lý từ danh sách các trang web, dịch vụ trực tuyến có sẵn như Facebook, Twitter, Google Plus, Paypal,... hoặc bạn có thể tự thêm trang web của riêng mình.
+~~- Mật khẩu của bạn khi lưu trữ đều được mã hóa và giải mã bằng chính mật khẩu hiện tại của bạn.~~ 
 
 ## Cài đặt
 ### Yêu cầu kĩ thuật
