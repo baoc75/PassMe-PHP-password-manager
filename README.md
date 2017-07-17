@@ -1,47 +1,45 @@
 # PassMe
-PassMe là một chương trình quản lý mật khẩu mã nguồn mở dành cho cá nhân, gia đình, các tổ chức, nhóm nhỏ. Được xây dựng trên PHP theo hướng đối tượng (OOP).
-
-*PassMe is an open source password manager for personal, family, small team use. Built on PHP with OOP styles.*
+PassMe is an open source password manager for individual, family, small team use. Built on PHP with OOP styles.*
 
 *Please note that PassMe don't have a translate system as well as an English translation, so at the momment, the instructions, software language will entirely in Vietnamese.*
 
 ![alt text](http://i.imgur.com/XUQBm96.png "Ảnh chụp màn hình PassMe")
 
-## Tính năng
-- Quản lý tài khoản các tài khoản trực tuyến nhanh chóng và dễ dàng tại cùng một nơi. 
-- Tương thích với nhiều thiết bị từ máy tính đến điện thoại di động.
-- Đưa ra các gợi ý nhằm nâng cao bảo mật về các tài khoản của bạn.
-- Thêm tài khoản/mật khẩu mới để quản lý từ danh sách các trang web, dịch vụ trực tuyến có sẵn như Facebook, Twitter, Google Plus, Paypal,... hoặc bạn có thể tự thêm trang web của riêng mình.
-- ~~Mật khẩu của bạn khi lưu trữ đều được mã hóa và giải mã bằng chính mật khẩu hiện tại của bạn.~~ 
+## Features
+- Manages accounts of online services and websites easily and secure. 
+- Reponsive, works on most devices
+- Give security advices about your accounts.
+- Add new account/password to manage from built-in list of website and services such as Google, Facebook, Paypal,... or you can add your own website.
+- ~~Your password will be encrypt and decrypt using your current password.~~ 
 
-## Cài đặt
-### Yêu cầu kĩ thuật
-- Phiên bản PHP 5.3 hoặc mới hơn.
-- Cơ sở dữ liệu MySQL.
-- Máy chủ HTTP có thể là Apache, Ngix,...
-- Có kiến thức cơ bản về PHP và MySQL.
+## Installation
+### Requirements 
+- PHP 5.3 or newer.
+- MySQL database.
+- HTTP server: Apache, Ngix,...
+- Have basic knowledge of PHP and MySQL.
 
-### Hướng dẫn
-- Clone hoặc download các release của PassMe về thư mục máy chủ của bạn.
-- Import file passme.sql vào CSDL MySQL của bạn.
-- Vào thư mục config, mở file dbconfig.php và chỉnh sửa các thông số CSDL, đường dẫn trang web và tên trang web.
-- Để thay đổi thông số gửi mail (SMTP), mở file class/class.user.php, tìm dòng số 119, kể từ đây trở xuống hãy thay đổi các thông số SMTP.
+### Instructions
+- Clone or download our lastest release to your server directory.
+- Import file passme.sql into your MySQL database.
+- In your config directory, open dbconfig.php file and change config parameters of database connection, website path and website name.
+- In order to sent mail (SMTP), open file class/class.user.php, go to line 119, from there, chagne config parameters of SMTP.
 
-## Cấu trúc thư mục và file
+## Directory structure
 
-| Tên thư mục | Nội dung |
+| Directory name | Nội dung |
 | ------  | ----------------------------------------------------------------------------------------------------------------- |
-| assets     | Chứa các resource, font, CSS, JS, hình ảnh của dịch vụ,...|
-| bootstrap    | Chứa các resource, font, CSS, JS, hình ảnh của dịch vụ,... dựa trên Bootstrap|
-| class| Các hàm, lớp xử lí trong chương trình |
-| config     | Chứa file thiết lập chương trình |
-| mailer     | Chứa thư viên PHPMailer dùng để gửi thư thông qua giao thức SMTP   |
-| my     | Thư mục chứa giao diện của các trang nằm trong /my/   |
-| pages     | Giao diện mẫu, có thể dùng để tạo thêm trang mới (dựa trên giao diện Flat Admin v4.3)  |
-| template   | Giao diện của header, menu, footer,... được sử dụng ở các trang |
+| assets     | Inculding resources, fonts, CSS, JS, images,... of PassMe |
+| bootstrap    | Inculding resources, fonts, CSS, JS, images,... of PassMe based on Bootstrap|
+| class| Inculding functions, classes, core of PassMe |
+| config     | Inculding configuration file of PassMe |
+| mailer     | Inculding PHPMailer library used to sent mail via SMTP protocol.   |
+| my     | Inculding template file inside website path /my/   |
+| pages     | Page template, can be use to create new page (based on Flat Admin v4.3)  |
+| template   | Template of header, menu, footer,... used across many pages |
 
-## Tùy chỉnh thêm
-### Thêm nhà cung cấp dịch vụ
+## Customization
+### Add more website/services
 Bạn có thể thêm nhà cung cấp dịch vụ bằng cách thêm một dòng mới vào bảng 'pm_services'
 
 Dưới đây là thông tin về mỗi cột mà bạn cần nhập
@@ -54,7 +52,7 @@ Dưới đây là thông tin về mỗi cột mà bạn cần nhập
 | url     | Đường dẫn đến trang đăng nhập của dịch vụ, dạng Varchar(255), UTF-8                                               |
 | img     | Tên file ảnh gồm cả đuôi file, là logo của dịch vụ, dạng Varchar(255), UTF-8, ảnh này nằm ở thư mục assets/img/   |
 
-### Thêm chuyên mục
+### Add more category
 Bạn có thể thêm chuyên mục cho tài khoản bằng cách thêm một dòng mới vào bảng 'pm_category'
 
 Dưới đây là thông tin về mỗi cột mà bạn cần nhập
@@ -66,7 +64,7 @@ Dưới đây là thông tin về mỗi cột mà bạn cần nhập
 
 ## Credits 
 - Nguyễn Phúc Bảo (https://github.com/nguyenphucbao68)
-- Giao diện Flat Admin - Không còn được phát triển (https://github.com/tui2tone/)
+- Flat Admin Template - No longer in development (https://github.com/tui2tone/)
 - PHPMailer (https://github.com/PHPMailer/PHPMailer)
 - Bootstrap (http://getbootstrap.com)
 - jQuery (http://jquery.com)
