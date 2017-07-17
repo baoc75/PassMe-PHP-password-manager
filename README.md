@@ -27,3 +27,13 @@ Dưới đây là thông tin về mỗi cột mà bạn cần nhập
 | url     | Đường dẫn đến trang đăng nhập của dịch vụ, dạng Varchar(255), UTF-8                                               |
 | img     | Tên file ảnh gồm cả đuôi file, là logo của dịch vụ, dạng Varchar(255), UTF-8, ảnh này nằm ở thư mục assets/img/   |
 
+### Thêm chuyên mục
+Bạn có thể thêm chuyên mục cho tài khoản bằng cách thêm một dòng mới vào bảng 'pm_services'
+
+Dưới đây là thông tin về mỗi cột mà bạn cần nhập
+
+| Tên cột | Nội dung                                                                                                          |
+| ------  | ----------------------------------------------------------------------------------------------------------------- |
+| id      | ID của dịch vụ, dạng INT, nên để trống, CSDL sẽ tự động tăng dần                                                  |
+| name    | Tên chuyên mục, dạng Varchar(50), UTF-8                                                                           |
+
