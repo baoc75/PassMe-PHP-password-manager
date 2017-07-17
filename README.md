@@ -17,6 +17,7 @@ PassMe là một chương trình quản lý mật khẩu mã nguồn mở dành 
 Bạn có thể thêm nhà cung cấp dịch vụ bằng cách thêm một dòng mới vào bảng 'pm_services'
 
 Dưới đây là thông tin về mỗi cột mà bạn cần nhập
+
 | Tên cột | Nội dung                                                                                                          |
 | ------  | ----------------------------------------------------------------------------------------------------------------- |
 | id      | ID của dịch vụ, dạng INT, nên để trống, CSDL sẽ tự động tăng dần                                                  |
