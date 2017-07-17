@@ -18,7 +18,7 @@ PassMe là một chương trình quản lý mật khẩu mã nguồn mở dành 
 ### Hướng dẫn
 - Clone hoặc download các release của PassMe về thư mục máy chủ của bạn.
 - Import file passme.sql vào CSDL MySQL của bạn.
-- Vào thư mục config, mở file db.config và chỉnh sửa các thông số CSDL, đường dẫn trang web và tên trang web.
+- Vào thư mục config, mở file dbconfig.php và chỉnh sửa các thông số CSDL, đường dẫn trang web và tên trang web.
 - Để thay đổi thông số gửi mail (SMTP), mở file class/class.user.php, tìm dòng số 119, kể từ đây trở xuống hãy thay đổi các thông số SMTP.
 
 ## Cấu trúc thư mục và file
