@@ -24,3 +24,9 @@ Dưới đây là thông tin về mỗi cột mà bạn cần nhập
 | fullname| Tên đầy đủ của dịch vụ, dạng Varchar(100), UTF-8                                                                  |
 | url     | Đường dẫn đến trang đăng nhập của dịch vụ, dạng Varchar(255), UTF-8                                               |
 | img     | Tên file ảnh gồm cả đuôi file, là logo của dịch vụ, dạng Varchar(255), UTF-8, ảnh này nằm ở thư mục assets/img/   |
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
