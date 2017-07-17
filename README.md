@@ -3,6 +3,8 @@ PassMe is an open source password manager for individual, family, small team use
 
 *Please note that PassMe don't have a translate system as well as an English translation, so at the momment, the instructions, software language will entirely in Vietnamese.*
 
+PassMe documentation in other language: [Tiếng Việt](README_vi.md)
+
 ![alt text](http://i.imgur.com/XUQBm96.png "Ảnh chụp màn hình PassMe")
 
 ## Features
@@ -27,7 +29,7 @@ PassMe is an open source password manager for individual, family, small team use
 
 ## Directory structure
 
-| Directory name | Nội dung |
+| Directory name | Content |
 | ------  | ----------------------------------------------------------------------------------------------------------------- |
 | assets     | Inculding resources, fonts, CSS, JS, images,... of PassMe |
 | bootstrap    | Inculding resources, fonts, CSS, JS, images,... of PassMe based on Bootstrap|
@@ -40,27 +42,27 @@ PassMe is an open source password manager for individual, family, small team use
 
 ## Customization
 ### Add more website/services
-Bạn có thể thêm nhà cung cấp dịch vụ bằng cách thêm một dòng mới vào bảng 'pm_services'
+You can add more website/services by add more row to table 'pm_services'
 
-Dưới đây là thông tin về mỗi cột mà bạn cần nhập
+Here is information of columns you need to fill in
 
-| Tên cột | Nội dung                                                                                                          |
+| Column | Content                                                                                                          |
 | ------  | ----------------------------------------------------------------------------------------------------------------- |
-| id      | ID của dịch vụ, dạng INT, nên để trống, CSDL sẽ tự động tăng dần                                                  |
-| name    | Tên ngắn gọn của dịch vụ, dạng Varchar(50), UTF-8                                                                 |
-| fullname| Tên đầy đủ của dịch vụ, dạng Varchar(100), UTF-8                                                                  |
-| url     | Đường dẫn đến trang đăng nhập của dịch vụ, dạng Varchar(255), UTF-8                                               |
-| img     | Tên file ảnh gồm cả đuôi file, là logo của dịch vụ, dạng Varchar(255), UTF-8, ảnh này nằm ở thư mục assets/img/   |
+| id      | ID of services, INT type, leave blank as MySQL will auto_increment                                                   |
+| name    | Short name of services, Varchar(50) type, UTF-8                                                                 |
+| fullname| Full name of services, Varchar(100) type, UTF-8                                                                  |
+| url     | URL to login page of services, Varchar(255) type, UTF-8                                               |
+| img     | Images file name with extension, this is logo of services, Varchar(255) type, UTF-8, these images could be found in assets/img/   |
 
 ### Add more category
-Bạn có thể thêm chuyên mục cho tài khoản bằng cách thêm một dòng mới vào bảng 'pm_category'
+You can add more category by add more row to table 'pm_category'
 
-Dưới đây là thông tin về mỗi cột mà bạn cần nhập
+Here is information of columns you need to fill in
 
-| Tên cột | Nội dung                                                                                                          |
+| Column | Content                                                                                                          |
 | ------  | ----------------------------------------------------------------------------------------------------------------- |
-| id      | ID của dịch vụ, dạng INT, nên để trống, CSDL sẽ tự động tăng dần                                                  |
-| name    | Tên chuyên mục, dạng Varchar(50), UTF-8                                                                           |
+| id      | ID of services, INT type, leave blank as MySQL will auto_increment                                                  |
+| name    | Name of category, Varchar(50) type, UTF-8                                                                           |
 
 ## Credits 
 - Nguyễn Phúc Bảo (https://github.com/nguyenphucbao68)
