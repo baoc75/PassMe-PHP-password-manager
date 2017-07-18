@@ -61,7 +61,7 @@ Here is information of columns you need to fill in
 
 | Column | Content                                                                                                          |
 | ------  | ----------------------------------------------------------------------------------------------------------------- |
-| id      | ID of services, INT type, leave blank as MySQL will auto_increment                                                  |
+| id      | ID of category, INT type, leave blank as MySQL will auto_increment                                                  |
 | name    | Name of category, Varchar(50) type, UTF-8                                                                           |
 
 ## Credits 
