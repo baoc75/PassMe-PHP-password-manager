@@ -14,6 +14,12 @@ PassMe documentation in other language: [Tiếng Việt](README_vi.md)
 - Add new account/password to manage from built-in list of website and services such as Google, Facebook, Paypal,... or you can add your own website.
 - ~~Your password will be encrypt and decrypt using your current password.~~ 
 
+# Future plans
+ - Encrypt password in database, and user can only decrypt and see it with their own unique password (not their current password use to login PassMe).
+ - Translate to Vietnamese.
+ - Add more services
+ - Build an installation ! 
+
 ## Installation
 ### Requirements 
 - PHP 5.3 or newer.
