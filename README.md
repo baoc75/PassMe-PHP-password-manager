@@ -1,4 +1,4 @@
-# PassMe
+# PassMes
 PassMe is an open source password manager for individual, family, small team use. Built on PHP with OOP styles.
 
 *Please note that PassMe don't have a translate system as well as an English translation, so at the momment, the instructions, software language will entirely in Vietnamese.*
